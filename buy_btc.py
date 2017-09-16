@@ -83,7 +83,7 @@ def main():
     orders = get_orders_from_response(api.open_orders().post())
 
     if not orders:
-        print("No order created by us.")
+        print("No previous order created by us.")
     else:
         print("Found previous order created by us, canceling them.")
 
@@ -123,7 +123,7 @@ def main():
             cap_decimal_fiat(max_acceptable_price),
             cap_decimal_fiat(bid_price)))
 
-    print("Placing a order as second larger price (${}) volume (${}) qty ({}BTC)".format(
+    print("Placing an order as second larger price (${}) volume (${}) qty ({}BTC)".format(
         cap_decimal_fiat(bid_price), cap_decimal_fiat(volume), cap_decimal_btc(qty)
     ))
 
