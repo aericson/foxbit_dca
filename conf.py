@@ -18,7 +18,7 @@ settings.BLINKTRADE_API_VERSION = 'v1'
 settings.CURRENCY = 'BRL'
 # 4 is foxbit
 settings.BROKER = '4'
-# Don't change this or you will mess up every
+# Don't change this or you will mess up every conversion
 settings.PRECISION = 100000000
 # In cents
 settings.MAX_ACCEPTABLE_PRICE_IN_CENTS = config('MAX_ACCEPTABLE_PRICE_IN_REAL', cast=int) * 100
