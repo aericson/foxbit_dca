@@ -30,8 +30,10 @@ PS: Python 3 only.
 ## Usage
 
 1. Make sure you created `.env` file following Doc section above.
+1. Run the script `python buy_btc.py`
 1. The script uses the following algorithm:
-    1. Delete pending orders it created on previous runs that didn't complete.
+    
+    1. Delete pending orders it created on previous runs that didn't complete.
     1. Get the second highest price that someone used in a buy order.
     1. Use the second highest price to place an order with volume as defined in PER_ORDER_IN_REAL
     1. Exit
