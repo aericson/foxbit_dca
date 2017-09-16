@@ -7,6 +7,8 @@ http://www.investopedia.com/terms/d/dollarcostaveraging.asp
 
 This script aims to help you applying it to buy BTC using the Brazilian exchange Foxbit.
 
+PS: Python 3 only.
+
 ## Installation
 
 1. Clone the repo
